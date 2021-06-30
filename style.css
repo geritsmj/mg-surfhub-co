@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ------------- borders for html structure building ------------ */
+
+section,div,body, nav, header{
+    border: 1px solid grey;
+}
+
+body{
+    padding: 3%;
+}
+
+/* -------------------- Utility classes ---------------------------- */
+
+.centered {
+    text-align: center;
+}

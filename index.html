@@ -5,15 +5,22 @@
     <head>
         <title> The Home of MG's Surfhub company </title>
 
+    <!-- This is our grid stylesheet ----------------------------------->
 
 
+    <!-- This is our google fonts    ------------------------------------>
 
+    <!------ This is our fontawsome icons ------------------------------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <!----------- Gridlex for our flexbos grids  ------------------------->
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
 
+    <!-------------- Google font - catamaran ( 200,400,500,800) --------------->
 
-
-
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+ <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@200;400;500;800&display=swap" rel="stylesheet"> 
 
  <!-------- this is our custom CSS stylesheet, this always goes last  ------------->
  <link rel="stylesheet" href="/style.css">
@@ -23,8 +30,10 @@
     <body>
   <!------------------ Header Block -------------------->
 
-        <header>
-            <h2> LOGO </h2>
+        <header class="centered">
+            <a href="#">
+                <h2 class="logo"> LOGO </h2>
+            </a>
             <nav>
                 <a href="#"> About </a>
                 <a href="#"> Testimonials </a>
@@ -36,9 +45,9 @@
 
  <!---------------------Banner Block ------------------->
 
-        <section>
+        <section class=" grid-center banner">
             <!--  Background Image for this section -->
-            <div>
+            <div class="col-6">
                 <h2> Lets Carve </h2>
                 <h3> Like a </h3>
                 <h2> world champion </h2>
@@ -48,39 +57,38 @@
 
 <!---------------------- testimonial Block  ------------->
 
-        <section>
+        <section class="grid">
             <!--  add grid and col to section -->
-            <div>
+            <div class="col-6">
                 <h3> Ultimate Construction </h3>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum quibusdam exercitationem earum nam nesciunt ad laudantium repellendus. 
                 </p>
             </div>
-            <div>
+            <div class="col-6">
                 <!--  background image placed here  -->
 
             </div>
-            <div>
+            <div class="col-6">
+                <!--  background image placed here  -->
+
+            </div>
+            <div class="col-6">
                 <h3> Like nothing I riden before</h3>
                 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae est doloremque sed iste, commodi molestias tempora adipisci veritatis iure excepturi.</p>
 
             </div>
 
-            <div>
-                <!--  background image placed here  -->
-
-            </div>
-
         </section>
-<!------------------------Our Services Block ------------>
+<!------------------------Our Services Block ------------------------------------------------>
 
         <section> 
             <h2> Our Services</h2>
             <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit neque labore odio magni itaque. Sequi modi atque ipsam sed ipsum tempore nam. </p>
 
 <!------------------------ add background image/ clickable box / box shadowing  -->
-            <div>
-                <div>
-                    <a href="#"> background image 
+            <div class="grid">
+                <div class="col-4">
+                    <a href="#">
                         <div>
                             <h3> Custom Boards</h3>
                             <h4> explore more</h4>
@@ -88,9 +96,9 @@
                     </a>
                 </div>
 <!-- --------------------- add background image/ clickable box / box shadowing -->
-                <div>
+                <div class="col-4">
                     <div>
-                        <a href="#"> background image 
+                        <a href="#"> 
                             <div>
                                 <h3> Product Range</h3>
                                 <h4> explore more</h4>
@@ -100,9 +108,9 @@
                 </div>
 
     <!--------------------- background image/ clickable box / box shadowing------------------->
-                <div>
+                <div class="col-4">
                     <div>
-                        <a href="#"> background image 
+                        <a href="#"> 
                             <div>
                                 <h3>  Organised Surf Trips</h3>
                                 <h4> explore more</h4>
@@ -118,12 +126,12 @@
 <!------------------------ Footer Block  ------------------>
 
 
-        <footer>
-            <div>
+        <footer class="grid">
+            <div class="col-5">
                 <h2> Logo </h2>
                 <P> Thankyou for visiting, hope to see you on the waves again soon</P>
             </div>
-            <div>
+            <div class="col-7">
                 <nav>
                     <a href="#"> Phone </a>
                     <a href="#"> Address </a>
