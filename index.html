@@ -29,25 +29,25 @@
 
     <body>
   <!------------------ Header Block -------------------->
-
-        <header class="centered">
-            <a href="#">
-                <h2 class="logo"> LOGO </h2>
-            </a>
-            <nav>
-                <a href="#"> About </a>
-                <a href="#"> Testimonials </a>
-                <a href="#"> Services </a>
-                <a href="#"> Contact Us </a>
-            </nav>
-
-        </header>
+  
+  <header class="grid-middle bg-header">
+    <div class="col-4 logo">
+      <a href="#">
+        <h2 class="padded-t centered"> LOGO </h2>
+      </a>
+    </div>
+    <nav class="col-8 right">
+      <a href="#"> home </a>
+      <a href="#"> about </a>
+      <a href="#"> contact </a>
+      <a href="#"> Services </a>
+    </nav>
+  </header>
 
  <!---------------------Banner Block ------------------->
-
-        <section class=" grid-center banner">
+        <section class=" grid-center bg-image tall-50 bg-image-banner">        
             <!--  Background Image for this section -->
-            <div class="col-6">
+            <div class="col-6 centered padded-t-2">
                 <h2> Lets Carve </h2>
                 <h3> Like a </h3>
                 <h2> world champion </h2>
@@ -59,21 +59,21 @@
 
         <section class="grid">
             <!--  add grid and col to section -->
-            <div class="col-6">
+            <div class="col-6-middle centered">
                 <h3> Ultimate Construction </h3>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum quibusdam exercitationem earum nam nesciunt ad laudantium repellendus. 
                 </p>
             </div>
-            <div class="col-6">
+            <div class="col-6 bg-image-test-1 bg-image tall-50">
                 <!--  background image placed here  -->
 
             </div>
-            <div class="col-6">
+            <div class="col-6 bg-image-test-2 bg-image tall-50">
                 <!--  background image placed here  -->
 
             </div>
-            <div class="col-6">
-                <h3> Like nothing I riden before</h3>
+            <div class="col-6-middle centered">
+                <h3> Like nothing I've riden before</h3>
                 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae est doloremque sed iste, commodi molestias tempora adipisci veritatis iure excepturi.</p>
 
             </div>
@@ -127,21 +127,28 @@
 
 
         <footer class="grid">
-            <div class="col-5">
-                <h2> Logo </h2>
+        
+            <div class="col-5 padded">
+                <h2> Surfhub.co </h2>
                 <P> Thankyou for visiting, hope to see you on the waves again soon</P>
             </div>
-            <div class="col-7">
+            <div class="col-7 padded right">
                 <nav>
-                    <a href="#"> Phone </a>
-                    <a href="#"> Address </a>
+                    <a href="#"> Phone</a>|
+                    <a href="#"> Address  </a>|
                     <a href="#"> Email </a>
                 </nav>
                 <!-- Add icon symbols for the socials  -->
                 <nav>
-                    <a href="#"> Facebook</a>
-                    <a href="#"> Instagram</a>
-                    <a href="#"> Youtube</a>
+                    <a href="#">
+                        <i class="fab fa-facebook-square"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-youtube"></i>
+                    </a>
 
                 </nav>
             </div>
