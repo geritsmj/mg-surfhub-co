@@ -3,12 +3,14 @@
 
 <!---------------- The Head all external resources go here ------------------------->
     <head>
+       
+<!-- viewport meta for responsive ----------------------- -->
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+       
         <title> The Home of MG's Surfhub company </title>
-
-    <!-- This is our grid stylesheet ----------------------------------->
-
-
-    <!-- This is our google fonts    ------------------------------------>
+  
 
     <!------ This is our fontawsome icons ------------------------------->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -31,12 +33,12 @@
   <!------------------ Header Block -------------------->
   
   <header class="grid-middle">
-    <div class="col-4 logo">
+    <div class="col-4_xs-12 logo">
       <a href="#">
         <h2 class="padded-t centered"> Surfhub.Co </h2>
       </a>
     </div>
-    <nav class="col-8 right">
+    <nav class="col-8_xs-12 right sm-text-center">
       <a href="#"> Home </a>
       <a href="#"> Contact </a>
       <a href="#"> Services </a>
@@ -50,7 +52,7 @@
             <div class="col-6 centered padded-t-2">
                 <h2> Lets Carve </h2>
                 <h3> Like a </h3>
-                <h2> world champion </h2>
+                <h2> World Champion </h2>
             </div>
         </section>
 
@@ -87,7 +89,7 @@
 
 <!------------------------ add background image/ clickable box / box shadowing  -->
             <div class="grid padded-1">
-                <div class="col-4 padded-05">
+                <div class="col-4 padded-05_xs-12">
                     <a href="#" class=" clickable-box bg-image-1" style="background-image:url('/images/the-surfhub-custom-.jpg')">
                         <div class=" overlay padded">
                             <h3> Custom Boards</h3>
@@ -96,7 +98,7 @@
                     </a>
                 </div>
 <!-- --------------------- add background image/ clickable box / box shadowing -->
-                <div class="col-4 padded-05">
+                <div class="col-4 padded-05_xs-12">
                     <div>
                         <a href="#" class="clickable-box bg-image-1" style="background-image:url('/images/the-surfhub-product.jpg')"> 
                             <div class="overlay padded">
@@ -108,7 +110,7 @@
                 </div>
 
     <!--------------------- background image/ clickable box / box shadowing------------------->
-                <div class="col-4 padded-05">
+                <div class="col-4 padded-05_xs-12">
                     <div>
                         <a href="#" class="clickable-box bg-image-1" style="background-image:url('/images/the-surfhub-vw\ van.jpg')"> 
                             <div class="overlay padded">
@@ -154,9 +156,26 @@
                 </nav>
             </div>
         </footer>
+<!--  plugin Live chat --------------------------- -->
 
-
-
+<!-- GetButton.io widget -->
+<script type="text/javascript">
+    (function () {
+        var options = {
+            email: "Myemail@mail.com", // Email
+            call: "+66 989 1042550", // Call phone number
+            call_to_action: "Message us", // Call to action
+            button_color: "#E74339", // Color of button
+            position: "right", // Position may be 'right' or 'left'
+            order: "email,call", // Order of buttons
+        };
+        var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+    })();
+</script>
+<!-- /GetButton.io widget -->
 
 
     </body>
