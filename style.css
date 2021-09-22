@@ -151,7 +151,8 @@ footer a{
 
 .bg-image-test-1{
     background-image: url('/images/the-surfhub-testimonal-1.jpg');
-    background-position: 50% 25%;
+    background-position: 50% 39%;
+    padding-bottom: 10%;
 }
 .bg-image-test-2{
     background-image: url('/images/the-surfhub-testimonal-2.jpg');
