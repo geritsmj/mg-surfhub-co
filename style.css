@@ -9,6 +9,10 @@
 
 */
 
+/* font family for surf trip banner
+font-family: 'Kaushan Script', cursive;
+*/
+
 
 
 /* ------------- borders for html structure building ------------ */
@@ -24,6 +28,8 @@ body{
 .centered {
     text-align: center;
 }
+
+
 
 
 /* ----- image styles----- ----- */
@@ -57,7 +63,7 @@ body{
 .padded-r {padding-right: 5%}
 
 .bg-dark{
-    background-color: #192B37;
+    background-color: #002855;
     color: white;
 }
 
@@ -102,15 +108,29 @@ a:hover{ color:#a8dadc;}
     color: rgb(120,120,125);
 }
 
+.surf-trip h2 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 5rem;
+}
+
+.script-text {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 3.5rem;
+}
+
 .quote-icon{
     font-size: 6rem;
     display: inline-block;
     color: rgb(120,120,125);
     line-height: 1.1;
 }
+
+.subtitle { font-size: 1.2rem;
+    color: rgb(120,120,125);}
+
   
 
-.featured-text{ color:#FFBE00;}
+.featured-text{ color:#e71d36;}
 .small-text{ font-size: 1.5rem;}
 .medium-text{ 
     font-size: 2rem;
@@ -165,10 +185,16 @@ footer a{
 
 .bg-image-product{
     background-image: url('/images/the-surfhub-product.jpg');
+    background-position: 50% 40%
 }
 
 .bg-image-trip {
     background-image: url('/images/the-surfhub-vw\ van.jpg');
+}
+
+.bg-image-trip-2 {
+    background-image: url('/images/surftrip-banner.jpg');
+    background-position: center;
 }
 /* ----------------- clickable boxes -------------------- */
 
