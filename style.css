@@ -20,7 +20,7 @@ font-family: 'Kaushan Script', cursive;
 /* section,div,body, nav, header{ border: 1px solid grey;} */
 
 body{
-    padding: 3%;
+    padding: 2%;
 }
 
 /* -------------------- Utility classes ---------------------------- */
@@ -44,6 +44,10 @@ body{
     background-size: cover;
     background-position: center;
 }
+
+.landscape { padding-bottom: 65%;}
+.portrait  { padding-bottom: 125%;}
+.square    { padding-bottom: 100%;}
 
 /* Universal styles & utility classes */
 
@@ -130,7 +134,7 @@ a:hover{ color:#a8dadc;}
 
   
 
-.featured-text{ color:#e71d36;}
+.featured-text{ color:#3da5d9;}
 .small-text{ font-size: 1.5rem;}
 .medium-text{ 
     font-size: 2rem;
@@ -169,11 +173,15 @@ footer a{
     background-position: 50% 40%;
 }
 
-.bg-image-test-1{
-    background-image: url('/images/the-surfhub-testimonal-1.jpg');
-    background-position: 50% 39%;
-    padding-bottom: 10%;
+.bg-image-banner-2{
+    background-image: url('/images/the-surfhub-sunset.jpg');
+    background-position: 50% 38%;
 }
+
+.bg-image-test-1 {
+    background-image: url('/images/the-surfhub-construction.jpg');
+}
+
 .bg-image-test-2{
     background-image: url('/images/the-surfhub-testimonal-2.jpg');
     background-position: 50% 57%;
@@ -190,6 +198,11 @@ footer a{
 
 .bg-image-trip {
     background-image: url('/images/the-surfhub-vw\ van.jpg');
+}
+
+.bg-image-banner-trip  {
+    background-image: url('/images/the-surfhub-trip-banner.jpg');
+    background-position: center;
 }
 
 .bg-image-trip-2 {
