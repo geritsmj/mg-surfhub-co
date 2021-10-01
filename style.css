@@ -72,6 +72,12 @@ body{
 }
 
 
+.bg-light{
+    background-color:#a8dadc;
+   
+}
+
+
 
 .tall-50   { min-height: 50vh;}
 .tall-60   { min-height: 60vh;}
@@ -126,7 +132,7 @@ a:hover{ color:#a8dadc;}
     font-size: 6rem;
     display: inline-block;
     color: rgb(120,120,125);
-    line-height: 1.1;
+    line-height: .1;
 }
 
 .subtitle { font-size: 1.2rem;
@@ -134,8 +140,8 @@ a:hover{ color:#a8dadc;}
 
   
 
-.featured-text{ color:#3da5d9;}
-.small-text{ font-size: 1.5rem;}
+.featured-text  { color:#bee2e4;}
+.small-text     { font-size: 1.5rem;}
 .medium-text{ 
     font-size: 2rem;
     line-height: 1;
@@ -150,6 +156,13 @@ a:hover{ color:#a8dadc;}
 .text-align-left{ text-align: left;}
 .text-align-center{ text-align: center;}
 .text-align-right{ text-align: right;}
+
+.fas {
+    display: block;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+}
 
 /*  ------------ Header & Footer styles ---------------- */
 
