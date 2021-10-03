@@ -216,6 +216,7 @@ footer a{
 .bg-image-banner-trip  {
     background-image: url('/images/the-surfhub-trip-banner.jpg');
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 .bg-image-trip-2 {
