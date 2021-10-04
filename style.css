@@ -95,7 +95,9 @@ h2{
     line-height: 1.1;
     margin-bottom: 1rem}
 
-h3{ line-height: 1;}
+h3{ line-height: 1;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;}
 
 P{ font-weight: 200;
     line-height: 1.5;
@@ -140,7 +142,7 @@ a:hover{ color:#a8dadc;}
 
   
 
-.featured-text  { color:#bee2e4;}
+.featured-text  { color:#df8549;}
 .small-text     { font-size: 1.5rem;}
 .medium-text{ 
     font-size: 2rem;
@@ -223,6 +225,48 @@ footer a{
     background-image: url('/images/surftrip-banner.jpg');
     background-position: center;
 }
+
+.bg-image-sunset { 
+    background-image: url('/images/the-surfhub-sunset.jpg');
+    background-position: 50% 50%;
+}
+
+.bg-image-surfschool {
+    background-image: url('/images/the-surfhub-trip-school.jpg');
+    background-position: center;
+}
+
+/*-----------------  Buttons & forms ---------------------*/
+input,
+textarea {
+    width: 100%;
+    display: block;
+    margin-bottom: 0.2rem;
+    padding: 0.5rem;
+    font-family: inherit;
+    font-size: 0.9rem;
+    border: 2px solid transparent;
+}
+
+input:focus,
+textarea:focus { 
+border: 2px solid #bee2e4;
+outline: none; 
+}
+
+.button{
+padding: 0.5rem 2rem;
+background-color: #df8549;
+appearance: none;
+border: 2px solid #df8549;
+
+}
+
+button:hover {
+    color: white;
+}
+
+
 /* ----------------- clickable boxes -------------------- */
 
 .clickable-box {
