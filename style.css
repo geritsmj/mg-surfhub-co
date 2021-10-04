@@ -144,20 +144,20 @@ a:hover{ color:#a8dadc;}
 
 .featured-text  { color:#df8549;}
 .small-text     { font-size: 1.5rem;}
-.medium-text{ 
+.medium-text { 
     font-size: 2rem;
     line-height: 1;
 }
-.big-text{ font-size: 4.5rem;}
-.white-text{ color: white;}
+.big-text   { font-size: 4.5rem;}
+.white-text { color: white;}
 
-.font-weight-light{ font-weight: 200;}
-.font-weight-normal{ font-weight: normal;}
-.font-weight-extra-bold{ font-weight: 800;}
+.font-weight-light      { font-weight: 200;}
+.font-weight-normal     { font-weight: normal;}
+.font-weight-extra-bold { font-weight: 800;}
 
-.text-align-left{ text-align: left;}
-.text-align-center{ text-align: center;}
-.text-align-right{ text-align: right;}
+.text-align-left   { text-align: left;}
+.text-align-center { text-align: center;}
+.text-align-right  { text-align: right;}
 
 .fas {
     display: block;
@@ -250,16 +250,16 @@ textarea {
 
 input:focus,
 textarea:focus { 
-border: 2px solid #bee2e4;
-outline: none; 
+    border: 2px solid #bee2e4;
+    outline: none; 
 }
 
 .button{
-padding: 0.5rem 2rem;
-background-color: #df8549;
-appearance: none;
-border: 2px solid #df8549;
-
+    padding: 0.5rem 2rem;
+    background-color: #df8549;
+    appearance: none;
+    border: 2px solid #df8549;
+ 
 }
 
 button:hover {
